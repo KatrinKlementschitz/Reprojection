@@ -11,8 +11,6 @@ uniform mat4 prev_proj;
 in vec2 tex_pos;
 in vec3 ray_dir;
 in vec3 ray_pos;
-in mat4 o_proj;
-in mat4 o_prev_view;
 out vec4 f_color;
 
 const float VOXEL_SIZE = 1;
